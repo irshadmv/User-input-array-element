@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+    int no[5]={};
+    for(i=0;i<=4;i++)
+    {
+        printf("enter %d mark",i);
+        scanf("%d",&no[i]);
+    }
+    for(i=0;i<=4;i++)
+{
+    printf("%d\n",no[i]);
+}
+}
